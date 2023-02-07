@@ -152,7 +152,7 @@ th{
     color: #BDECB6;
 }
 
-.embed-container{
+.embed-container {
  position: relative;
  padding-bottom: 56.25%;
  height: 0;
@@ -163,18 +163,20 @@ th{
  margin-bottom: 30px;
 }
 
-.embed-container iframe, .embed-container object, .embed-container embed{
+.embed-container iframe, .embed-container object, .embed-container embed {
  position: absolute;
  top: 0;
  left: 0;
- width: 50%;
- height: 50%;
+ width: 100%;
+ height: 100%;
 }
 
+
 .imgresponsivo{
-    max-widht: 100%;
+    max-widht:100%;
     height: auto;
     float: center;
     margin: auto;
-    display: flex;
+    display:flex;
+
 }
